@@ -14,10 +14,13 @@ public class Smartphone extends ElectronicDevice {
         this.batteryLevel=batteryLevel;
         // TODO: Initialize the attributes with the provided parameters
     }
+   
     public int getBatteryLevel(){
         return this.batteryLevel;
     }
-   
+    
+    
+
     // TODO: Implement a method to check the battery level and return a message based on the level
     // Implement the checkBattery method to return:
         // "Warning: Battery low!" if the battery level is 20% or lower.
